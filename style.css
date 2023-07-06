@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{background-color: #1e1e1f;}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* ---------- Header ---------- */
+.main-header{
+    position: relative;
+}
+.header-ust{
+    width: 100%;
+    height: 11vh;
+    background-color: #1e1e1f;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0 30px;
+}
+.navbar-sol{
+    height: 11vh;
+    display: flex;
+    align-items: center;
+}
+.navbar-sag ul{
+    display: flex;
+    height: 11vh;
+    align-items: center;
+}
+.navbar-sag li{
+    padding: 8px 20px;
+}
+.navbar-sag a{
+    color: #fff;
+}
+.navbar-sag li:hover{
+    border-bottom: 2px solid #d85848;
+    transition: 0.3s;
+}
+.header-ust2{
+    width: 100%;
+    height: 11vh;
+    position: relative;
+    z-index: -1;
+}
+.header-alt{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)) ,url(img/beyaz-eşya-servisi.jpeg);
+    width: 100%;
+    height: 89vh;
+    background-size:cover ;
+    text-align: center;
+    color: #fff;
+}
+.header-alt h1{
+    font-size: 110px;
+    padding-top: 200px;
+    letter-spacing:4px;
+    font-family: 'PT Serif', serif;
+    /* font-family: 'Noto Serif', serif; */
+}   
+.header-alt span{
+    color: #d85848;
+    font-size: 140px;
+    font-weight: 400 ;
+}
+.no{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 40px;
+    margin-top: 180px;
+}
+.no p:hover{
+    text-shadow: 1px 1px 2px #d85848, 0 0 1em #d85848, 0 0 0.2em #d85848;
+    transition: 0.2s;
+}
+/* ---------- Main - Section1 ---------- */
+.section1{
+    background-color: #fff;
+    height: 30vh;
+
+}
+.iconsAll{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    align-items: center;
+    height: 30vh;
+}
+.icon{
+    text-align: center;
+}
+.icon h6{
+    padding: 15px 0;
+}
+.iconPhoto-alt i{
+    background-color: #d85848;
+    padding: 10px;
+    border-radius: 50%;
+}
+.iconPhoto-alt{
+    display: flex;
+    justify-content: center;
+}
+/* ---------- Main - Section2 ---------- */
+.section2{
+    display: flex;
+    height: 89vh;
+}
+.section2-sol{
+    width: 50%;   
+}
+.section2-sol img{
+    max-width: 100%;
+    height: 100%;
+}
+.section2-sag{
+    width: 50%;
+    background-color: #6c757d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 30px;
+}
+.section2-sag h2{
+    /* font-size: 15px; */
+    font-family: 'PT Serif', serif;
+    /* font-family: 'Noto Serif', serif; */
+}
+.section2-sag p{
+    font-size: 15px;
+    padding-top: 10px;
+    /* font-family: 'PT Serif', serif; */
+    /* font-family: 'Noto Serif', serif; */
+}
+/* ---------- Main - Section-Ara ---------- */
+.section-ara{
+    text-align: center;
+    background-color: #fff;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.section-ara h1{
+    font-weight: 400;
+}
+/* ---------- Main - Section3 ---------- */
+.section3{
+    background-color: #fff;
+}
+.kart-kapsayici{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.kart1,.kart2,.kart3,.kart4,.kart5,.kart6{
+    width: 32%;
+}
+.kart-ust{
+    background-image: url(img/klima-tamiri.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.kart2 .kart-ust{
+    background-image: url(img/buzdolabı.jpeg);
+}
+.kart3 .kart-ust{
+    background-image: url(img/a1.jpeg);
+}
+.kart4 .kart-ust{
+    background-image: url(img/a2.jpeg);
+}
+.kart5 .kart-ust{
+    background-image: url(img/a3.jpeg);
+}
+.kart6 .kart-ust{
+    background-image: url(img/a5.jpeg);
+}
+.kart-alt{
+    width: 100%;
+    height: 60px;
+    /* background-color: #ffc107; */
+    background-color: #d85848;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kart-alt p{
+    margin-bottom: 0;
+    font-weight: 300;
+}
+/* ---------- Main - Section-Ara2 ---------- */
+.section-ara2{
+    text-align: center;
+    background-color: #f8f9fa;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+.section-ara2 h1{
+    font-weight: 400;
+}
+/* ---------- Main - Section4 ---------- */
+.section4{
+   padding: 0 100px;
+   background-color: #f8f9fa;
+}
+.section4 .teams{
+    display: flex;
+    justify-content: space-between;
+}
+.worker1,.worker2{
+    width: 40%;
+    height: 500px;
+}
+.worker-ust{
+    background-image: url("img/p1.jpeg");
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.worker2 .worker-ust{
+    background-image: url("img/p2.jpeg");
+}
+.worker-alt{
+    text-align: center;
+    padding-top: 20px;
+}
+/* ---------- Main - Section5 ---------- */
+.contact{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #f8f9fa;
+}
+.contact-sol{
+    width: 50%;
+    height: auto;
+    background-image: url(img/call-senter-1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-sag{
+    width: 50%;
+    padding: 20px;
+}
+.contact-sag p{
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.contact-sag h3{
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+button{
+    width: 110px;
+    background-color: #d85848 !important;
+    --bs-btn-border-color:white !important;
+    --bs-btn-hover-border-color:black !important;
+}
+/* ---------- Footer ---------- */
+.footer{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center;
+}
+.social a{
+    padding: 0 15px;
+}
+.social i{
+    color: #d85848;
+    /* color: #1e1e1f; */
+}
+.footer p{
+    margin-top: 20px;
+}
+.section-map{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:600px){
+
+/* ---------- Header ---------- */
+.header-ust{
+    padding: 0 5px;
+}
+.navbar-sag ul{
+    padding: 0;
+}
+.navbar-sag li{
+    padding: 8px 5px;
+}
+.navbar-sag a{
+    font-size: 13px;
+    font-weight: 600;
+}
+.header-alt{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)) ,url(img/beyaz-eşya-servisi2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-alt h1{
+    font-size: 35px;
+}       
+.header-alt span{
+    font-size: 50px;
+}
+.header-alt > p {
+    font-size: 10px;
+    margin-top: 12px;
+}
+.no{
+    display: block;
+    font-size: 20px;
+    margin-top: 220px;
+}
+/* ---------- Main - Section1 ---------- */
+.section1{
+    height: auto;
+}
+.iconsAll{
+    display: block;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icon h6{
+    padding: 10px 0 2px 0;
+}
+.iconPhoto-alt i{
+    padding: 10px;
+}
+.iconPhoto-alt{
+    padding-top: 20px;
+}
+.section2-sol img{
+    max-width: 98%;
+}
+/* ---------- Main - Section2 ---------- */
+.section2{
+    display: block;
+    height: 100%;
+}
+.section2-sol{
+    width: 100%;   
+}
+.section2-sag{
+    width: 100%;
+}
+/* ---------- Main - Section3 ---------- */
+.kart-kapsayici{
+    padding: 0 0px;
+    display: block;
+}
+.kart1,.kart2,.kart3,.kart4,.kart5,.kart6{
+    width: 100%;
+}
+.kart-alt{
+    margin-top: 0;
+}
+/* ---------- Main - Section-Ara ---------- */
+.section-ara{
+    height: 25vh;
+}
+/* ---------- Main - Section-Ara2 ---------- */
+.section-ara2{
+    height: 25vh;
+}
+/* ---------- Main - Section4 ---------- */
+.section4{
+   padding: 0 0px;
+}
+.section4 .teams{
+    display: block;
+}
+.worker1,.worker2{
+    width: 100%;
+}
+.worker-ust{
+    border-radius: 0px;
+}
+/* ---------- Main - Section5 ---------- */
+.contact{
+    display: block;
+    height: 100%;
+}
+.contact-sol{
+    width: 100%;
+    height: 250px;
+}
+.contact-sag{
+    width: 100%;
+}
+.contact-sag h3{
+    text-align: center;
+}
+}
