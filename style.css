@@ -13,6 +13,22 @@ a{
 li{
     list-style-type: none;
 }
+
+
+.wp{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    font-size: 70px;
+    z-index: 2;
+    
+}
+.wp i{
+    color: #47cc59;
+}
+
+
+
 /* ---------- Header ---------- */
 .main-header{
     position: relative;
@@ -78,6 +94,7 @@ li{
     justify-content: space-evenly;
     font-size: 40px;
     margin-top: 180px;
+    color: #fff;
 }
 .no p:hover{
     text-shadow: 1px 1px 2px #d85848, 0 0 1em #d85848, 0 0 0.2em #d85848;
@@ -376,7 +393,7 @@ button{
 /* ---------- Main - Section2 ---------- */
 .section2{
     display: block;
-    height: 100%;
+    width: 100%;
 }
 .section2-sol{
     width: 100%;   
